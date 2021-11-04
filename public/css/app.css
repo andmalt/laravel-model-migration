@@ -12173,3 +12173,7 @@ fieldset:disabled .btn {
   }
 }
 
+.card {
+  border: 1px solid lightgray;
+}
+

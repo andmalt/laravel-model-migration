@@ -12,7 +12,10 @@ class HomeController extends Controller
 
         $travelPackages = TravelPackage::all();
 
-
         return view('home', compact('travelPackages'));
+    }
+    public function show(){
+
+        return view('card');
     }
 }
